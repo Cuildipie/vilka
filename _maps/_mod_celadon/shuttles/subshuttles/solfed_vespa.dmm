@@ -3,7 +3,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/crate_shelf/built,
+/obj/structure/crate_shelf,
 /turf/open/floor/plasteel/lightdark,
 /area/ship/bridge)
 "c" = (
