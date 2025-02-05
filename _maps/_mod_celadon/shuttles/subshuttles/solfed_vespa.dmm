@@ -422,15 +422,17 @@
 	id = "vespadoors"
 	},
 /obj/structure/fans/tiny,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /obj/effect/turf_decal/trimline/opaque/solgovblue/filled/line{
-	dir = 8
+	dir = 4
 	},
 /obj/docking_port/mobile{
-	can_move_docking_ports = 1;
-	port_direction = 2;
+	dir = 2;
+	port_direction = 8;
 	preferred_direction = 4;
-	name = "jet lancer";
-	dir = 4
+	name = "rider"
 	},
 /turf/open/floor/plasteel/lightdark,
 /area/ship/bridge)
@@ -560,10 +562,10 @@ D
 S
 F
 o
-Q
+U
 "}
 (5,1,1) = {"
-M
+Q
 G
 u
 b
